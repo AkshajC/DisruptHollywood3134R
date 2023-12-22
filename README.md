@@ -55,7 +55,10 @@ dont change 0 and 0.6 theyre complicated constants I have to explain in person
 127 is max speed, lower it to go slower  
 true means the movement is automatically asynchronous so if u write smth like intake = 127; below the intake will  
 start running as the movement starts. if u set it to false it will run after the movement is completed  
-  
+If you want to see how the curve works and lead(0.6 here) changes the curve play with this graph:  
+
+https://www.desmos.com/calculator/sptjw5szex
+
 moveToPoint() is the next one its essentially a simpler version of moveToPose where if ur at (x,y) (0, 0) and want  
 to go to (10, 20) youll go there and end facing the point. it is faster movement btw. Every straight line movement should  
 be done w/ this  
